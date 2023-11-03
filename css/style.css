@@ -21,13 +21,18 @@ body {
 body {
   background-color: #dda15e;
   position:relative;
+
+  /*background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);*/
   
   background:
-    linear-gradient(0deg, rgba(64, 93, 230, 1), transparent 75%),
-    linear-gradient(120deg, rgba(225, 48, 108, 1), transparent),
+  	/*
+    linear-gradient(0deg, rgba(255, 0, 5, 0.5), transparent 75%),
+    linear-gradient(120deg, rgba(0, 255, 0, 1), transparent),
     linear-gradient(240deg, rgb(252, 175, 69, 1), transparent);
+	*/
+	linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%);
     background-size: 100% 100%;
-    animation: gradient 0.5s ease-in-out infinite;
+    animation: gradient 5s ease-in-out infinite;
     background-attachment: fixed;
 }
 
